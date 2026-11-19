@@ -1,0 +1,33 @@
+/*
+WEEK5:Q3:CONVERT TO CELSIUS
+Name:Hentry Odhiambo
+Reg no:CT100/G/30651/26
+*/
+
+#include<stdio.h>
+
+double convert_to_celsius(double fahrenheit);
+
+
+int main()
+{
+	double fahrenheit , celsius;
+printf ("Enter temperature in Fahrenheit :");
+scanf ("%lf" ,&fahrenheit);
+ 
+ //function call
+celsius=convert_to_celsius(fahrenheit);
+printf ("temperature in celsius =%.2f\n", celsius);
+
+return 0;
+	
+}
+
+//function definition
+double convert_to_celsius(double fahrenheit)
+{
+	double celsius;
+	celsius =(fahrenheit-32)*5/9;
+	
+	return celsius;
+}

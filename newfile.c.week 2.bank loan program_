@@ -1,0 +1,21 @@
+//WEEK2:BANK LOAN PROGRAM.
+//Name:Onyango Hentry Odhiambo
+//Reg no:CT100/G/30651/26
+//Date:24/9/2026
+
+#include<stdio.h>
+
+//Bank loan program
+int main()
+{
+int age; 
+float  annualincome; 	
+
+printf("Enter your age :");
+scanf("%d", &age);
+
+printf("Enter your annual income :");
+scanf("%f",&annualincome);
+
+return 0;
+}

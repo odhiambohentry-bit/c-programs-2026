@@ -1,0 +1,35 @@
+//WEEK 2:VOLUME AND SURFACE AREA OF A CYLINDER.
+//Name:Onyango Hentry Odhiambo;
+//Reg no:CT100/G/30651/26;
+//Date:24/9/2026;
+
+
+#include<stdio.h>
+
+// volume(), surface area()
+
+
+
+int main()
+{
+	float height; //%lf
+	float radius; //%lf
+	float surface_area; //%lf
+	float volume; //%lf
+	double pi=3.142;
+	
+	printf ("enter the height: \t");
+	scanf ("%f",&height);
+	
+	printf ("enter the radius:\t");
+	scanf ("%lf",&radius);
+	
+	volume=pi*radius*radius*height;
+	surface_area =2*pi*radius*radius+2*pi*radius*height;
+	
+	printf("find the volume =%.2lf\n",volume);
+	
+	printf("find the surface_area =%.2lf\n" ,surface_area);
+	
+	return 0;
+}

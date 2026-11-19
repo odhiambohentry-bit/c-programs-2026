@@ -1,0 +1,49 @@
+// week 3 :WATER BILL CALCULATOR
+
+/*
+name:Hentry Odhiambo
+reg no:CT100/G/30651/26
+*/
+
+#include<stdio.h>
+
+int main()
+{
+
+	int units;
+	double bill;
+	int total;
+
+	
+printf("Enter the  units consumed \n");
+scanf("%.2lf" , & units);
+ 
+ if
+ (units<=30){
+ 	bill=20*units;
+ }
+ 
+ else if
+ (units<=60){
+ 	bill=25*units;
+ }
+ 
+ else
+ {bill=30*units;
+ }
+ 
+
+
+
+ 
+ printf("total water bill is :%.2lf\n",bill);
+ 
+ return 0;
+ 
+}
+ 
+	
+	
+
+
+	

@@ -1,0 +1,32 @@
+//WEEK2:OPTIONAL.
+// Name:Hentry Odhiambo
+//Reg no:CT100/G/30651/26
+
+#include<stdio.h>
+ 
+ int main(){
+ 	float p,t,r;
+ 	float calculatesimpleinterest (float simpleinterest);
+ 	float simpleinterest;
+ 	
+ 	;simpleinterest= (p*r*t)/100;
+ 	
+ 	printf("enter the principal amount in Ksh\t");
+ 	scanf("%f",&p);
+ 	
+ 	printf("enter the time in years\t");
+ 	scanf("%f",&t);
+ 	
+ 	printf("enter the rate values in percentage\t");
+ 	scanf("%f",&r);
+ 	
+ 	printf("==========\n");
+ 	printf("simple interest:Ksh%.2f\n",simpleinterest);
+ 	printf("==========\n");
+ 	
+ 	
+ 	return 0;
+ 	
+
+	
+}

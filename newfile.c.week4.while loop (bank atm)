@@ -1,0 +1,31 @@
+/*
+WEEK 4:WHILE LOOP(BANK ATM)
+Name:Hentry Odhiambo.
+Adm no:CT100/G/30651/26
+*/
+#include<stdio.h>
+
+int main()
+{
+	float balance,withdrawal;
+	
+	printf("Enter your account balance : \n");
+	scanf("%f" ,&balance);
+	
+	while (balance > 0)
+	{
+		printf ("Enter amount to withdraw : \n");
+		scanf("%f" ,&withdrawal);
+		
+		balance = balance - withdrawal;
+		printf ("Remaining balance : %.2f\n ,balance"); 
+	}
+	printf("Account balance is zero or below .\n");
+	
+	return 0;
+	
+}
+
+
+
+

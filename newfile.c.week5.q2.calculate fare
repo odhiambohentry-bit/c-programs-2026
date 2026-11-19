@@ -1,0 +1,28 @@
+/*WEEK5:CALCULATE FARE(question 2)
+NAME:Hentry Odhiambo
+Reg no:CT100/G/30651/26
+*/
+
+#include<stdio.h>
+
+double calculate_fare(double distance)
+{
+	return distance *50;
+}
+int main()
+{
+	double distance , fare;
+	printf ("Enter distance travelled in km :");
+	scanf ("%lf" ,&distance);
+	
+	fare=calculate_fare(distance);
+	printf ("Totalfare=Ksh %.2f\n" ,fare);
+	
+	
+	
+	return 0;
+
+
+
+	
+}
